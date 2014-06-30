@@ -49,7 +49,7 @@
             
             if (_operation == CEInteractionOperationPop) {
                 // for pop operation, fire on right-to-left
-                if (rightToLeftSwipe) {
+                if (!rightToLeftSwipe) {
                     self.interactionInProgress = YES;
                     [_viewController.navigationController popViewControllerAnimated:YES];
                 }

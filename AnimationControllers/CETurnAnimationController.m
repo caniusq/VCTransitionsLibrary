@@ -13,7 +13,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        self.flipDirection = CEDirectionVertical;
+        self.direction = CEDirectionVertical;
     }
     return self;
 }
@@ -65,7 +65,7 @@
 }
 
 - (CATransform3D) rotate:(CGFloat) angle {
-    if (self.flipDirection == CEDirectionHorizontal)
+    if (self.direction == CEDirectionHorizontal)
         return  CATransform3DMakeRotation(angle, 1.0, 0.0, 0.0);
     else
         return  CATransform3DMakeRotation(angle, 0.0, 1.0, 0.0);

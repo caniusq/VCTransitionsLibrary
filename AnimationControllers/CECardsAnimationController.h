@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Colin Eberhardt. All rights reserved.
 //
 
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
-@interface CECardsAnimationController : CEReversibleAnimationController
+@interface CECardsAnimationController : CEBaseAnimationController
 
 @end

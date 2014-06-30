@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Colin Eberhardt. All rights reserved.
 //
 
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 /**
  Animates between the two view controllers by slicing the from- view controller into lots of little pieces, then randomly spinning and shrinking them.
  */
-@interface CEExplodeAnimationController : CEReversibleAnimationController
+@interface CEExplodeAnimationController : CEBaseAnimationController
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57B655E81961C31600E719DB /* CEBaseAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B655E71961C31600E719DB /* CEBaseAnimationController.m */; };
 		72EC05B717E8DF3D00DCB9A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC05B617E8DF3D00DCB9A3 /* Foundation.framework */; };
 		72EC05B917E8DF3D00DCB9A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC05B817E8DF3D00DCB9A3 /* CoreGraphics.framework */; };
 		72EC05BB17E8DF3D00DCB9A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EC05BA17E8DF3D00DCB9A3 /* UIKit.framework */; };
@@ -26,7 +27,6 @@
 		72EC05FC17E8DF5D00DCB9A3 /* CEExplodeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC05F617E8DF5D00DCB9A3 /* CEExplodeAnimationController.m */; };
 		72EC05FD17E8DF5D00DCB9A3 /* CEFlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC05F717E8DF5D00DCB9A3 /* CEFlipAnimationController.m */; };
 		72EC05FE17E8DF5D00DCB9A3 /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC05F817E8DF5D00DCB9A3 /* CEFoldAnimationController.m */; };
-		72EC05FF17E8DF5D00DCB9A3 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC05F917E8DF5D00DCB9A3 /* CEReversibleAnimationController.m */; };
 		72EC060017E8DF5D00DCB9A3 /* CETurnAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC05FA17E8DF5D00DCB9A3 /* CETurnAnimationController.m */; };
 		72EC060317E9655300DCB9A3 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC060217E9655300DCB9A3 /* TabBarViewController.m */; };
 		72EC060917E96C2500DCB9A3 /* CEBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EC060717E96C2500DCB9A3 /* CEBaseInteractionController.m */; };
@@ -44,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57B655E61961C31600E719DB /* CEBaseAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEBaseAnimationController.h; path = ../AnimationControllers/CEBaseAnimationController.h; sourceTree = "<group>"; };
+		57B655E71961C31600E719DB /* CEBaseAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEBaseAnimationController.m; path = ../AnimationControllers/CEBaseAnimationController.m; sourceTree = "<group>"; };
 		72EC05B317E8DF3D00DCB9A3 /* TabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EC05B617E8DF3D00DCB9A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72EC05B817E8DF3D00DCB9A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,13 +70,11 @@
 		72EC05F017E8DF5D00DCB9A3 /* CEExplodeAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEExplodeAnimationController.h; path = ../AnimationControllers/CEExplodeAnimationController.h; sourceTree = "<group>"; };
 		72EC05F117E8DF5D00DCB9A3 /* CEFlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEFlipAnimationController.h; path = ../AnimationControllers/CEFlipAnimationController.h; sourceTree = "<group>"; };
 		72EC05F217E8DF5D00DCB9A3 /* CEFoldAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEFoldAnimationController.h; path = ../AnimationControllers/CEFoldAnimationController.h; sourceTree = "<group>"; };
-		72EC05F317E8DF5D00DCB9A3 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CEReversibleAnimationController.h; path = ../AnimationControllers/CEReversibleAnimationController.h; sourceTree = "<group>"; };
 		72EC05F417E8DF5D00DCB9A3 /* CETurnAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CETurnAnimationController.h; path = ../AnimationControllers/CETurnAnimationController.h; sourceTree = "<group>"; };
 		72EC05F517E8DF5D00DCB9A3 /* CECrossfadeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CECrossfadeAnimationController.m; path = ../AnimationControllers/CECrossfadeAnimationController.m; sourceTree = "<group>"; };
 		72EC05F617E8DF5D00DCB9A3 /* CEExplodeAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEExplodeAnimationController.m; path = ../AnimationControllers/CEExplodeAnimationController.m; sourceTree = "<group>"; };
 		72EC05F717E8DF5D00DCB9A3 /* CEFlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEFlipAnimationController.m; path = ../AnimationControllers/CEFlipAnimationController.m; sourceTree = "<group>"; };
 		72EC05F817E8DF5D00DCB9A3 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEFoldAnimationController.m; path = ../AnimationControllers/CEFoldAnimationController.m; sourceTree = "<group>"; };
-		72EC05F917E8DF5D00DCB9A3 /* CEReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CEReversibleAnimationController.m; path = ../AnimationControllers/CEReversibleAnimationController.m; sourceTree = "<group>"; };
 		72EC05FA17E8DF5D00DCB9A3 /* CETurnAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CETurnAnimationController.m; path = ../AnimationControllers/CETurnAnimationController.m; sourceTree = "<group>"; };
 		72EC060117E9655300DCB9A3 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		72EC060217E9655300DCB9A3 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
@@ -189,6 +189,8 @@
 		72EC05EE17E8DF4A00DCB9A3 /* AnimationControllers */ = {
 			isa = PBXGroup;
 			children = (
+				57B655E61961C31600E719DB /* CEBaseAnimationController.h */,
+				57B655E71961C31600E719DB /* CEBaseAnimationController.m */,
 				72EC05EF17E8DF5D00DCB9A3 /* CECrossfadeAnimationController.h */,
 				72EC05F517E8DF5D00DCB9A3 /* CECrossfadeAnimationController.m */,
 				72EC05F017E8DF5D00DCB9A3 /* CEExplodeAnimationController.h */,
@@ -197,8 +199,6 @@
 				72EC05F717E8DF5D00DCB9A3 /* CEFlipAnimationController.m */,
 				72EC05F217E8DF5D00DCB9A3 /* CEFoldAnimationController.h */,
 				72EC05F817E8DF5D00DCB9A3 /* CEFoldAnimationController.m */,
-				72EC05F317E8DF5D00DCB9A3 /* CEReversibleAnimationController.h */,
-				72EC05F917E8DF5D00DCB9A3 /* CEReversibleAnimationController.m */,
 				72EC05F417E8DF5D00DCB9A3 /* CETurnAnimationController.h */,
 				72EC05FA17E8DF5D00DCB9A3 /* CETurnAnimationController.m */,
 			);
@@ -315,9 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				72EC060317E9655300DCB9A3 /* TabBarViewController.m in Sources */,
+				57B655E81961C31600E719DB /* CEBaseAnimationController.m in Sources */,
 				72EE96DE17EF6A5D0097DF82 /* CEHorizontalSwipeInteractionController.m in Sources */,
 				72EC05D017E8DF3D00DCB9A3 /* ViewController.m in Sources */,
-				72EC05FF17E8DF5D00DCB9A3 /* CEReversibleAnimationController.m in Sources */,
 				72EC05C717E8DF3D00DCB9A3 /* AppDelegate.m in Sources */,
 				72EC060017E8DF5D00DCB9A3 /* CETurnAnimationController.m in Sources */,
 				72EC05FB17E8DF5D00DCB9A3 /* CECrossfadeAnimationController.m in Sources */,

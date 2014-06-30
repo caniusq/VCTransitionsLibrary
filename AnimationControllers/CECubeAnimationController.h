@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 typedef enum {CubeAnimationWayHorizontal, CubeAnimationWayVertical} CubeAnimationWay;
 typedef enum {CubeAnimationTypeInverse, CubeAnimationTypeNormal} CubeAnimationType;
 
-@interface CECubeAnimationController : CEReversibleAnimationController
+@interface CECubeAnimationController : CEBaseAnimationController
 
 @property (nonatomic, assign) CubeAnimationWay cubeAnimationWay;
 @property (nonatomic, assign) CubeAnimationType cubeAnimationType;

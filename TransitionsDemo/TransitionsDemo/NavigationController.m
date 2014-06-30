@@ -9,7 +9,7 @@
 #import "NavigationController.h"
 #import "AppDelegate.h"
 #import "CEBaseInteractionController.h"
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 @interface NavigationController () <UINavigationControllerDelegate>
 
@@ -33,6 +33,7 @@
     
     if (AppDelegateAccessor.navigationControllerAnimationController) {
         AppDelegateAccessor.navigationControllerAnimationController.reverse = operation == UINavigationControllerOperationPop;
+        AppDelegateAccessor.navigationControllerAnimationController.direction = CEDirectionHorizontal;
     }
     
     return AppDelegateAccessor.navigationControllerAnimationController;

@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 Colin Eberhardt. All rights reserved.
 //
 
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 /**
  Animates between the two view controllers using a paper-fold style transition. You can configure the number of folds via the `folds` property.
  */
-@interface CEFoldAnimationController : CEReversibleAnimationController
+@interface CEFoldAnimationController : CEBaseAnimationController
 
 @property (nonatomic) NSUInteger folds;
 

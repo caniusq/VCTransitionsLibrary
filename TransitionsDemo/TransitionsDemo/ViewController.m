@@ -56,11 +56,13 @@ static int colorIndex = 0;
     }
     
     AppDelegateAccessor.settingsAnimationController.reverse = NO;
+    AppDelegateAccessor.settingsAnimationController.direction = CEDirectionVertical;
     return AppDelegateAccessor.settingsAnimationController;
 }
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
     AppDelegateAccessor.settingsAnimationController.reverse = YES;
+    AppDelegateAccessor.settingsAnimationController.direction = CEDirectionVertical;
     return AppDelegateAccessor.settingsAnimationController;
  }
 

@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Frédéric ADDA. All rights reserved.
 //
 
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 /*
  Animates between the two view controllers using a portal-opening transition.
  */
 
-@interface CEPortalAnimationController : CEReversibleAnimationController
+@interface CEPortalAnimationController : CEBaseAnimationController
 @end

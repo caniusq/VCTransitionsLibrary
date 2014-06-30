@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Colin Eberhardt. All rights reserved.
 //
 
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 /**
  Animates between the two view controllers by performing a simple cross-fade. 
  */
-@interface CECrossfadeAnimationController : CEReversibleAnimationController
+@interface CECrossfadeAnimationController : CEBaseAnimationController
 
 @end

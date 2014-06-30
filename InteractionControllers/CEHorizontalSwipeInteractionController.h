@@ -10,7 +10,7 @@
 #import "CEBaseInteractionController.h"
 
 /**
- A horizontal swipe interaction controller. When used with a navigation controller, a right-to-left swipe
+ A horizontal swipe interaction controller. When used with a navigation controller, a left-to-right swipe
  will cause a 'pop' navigation. When used wth a tabbar controller, right-to-left and left-to-right cause navigation
  between neighbouring tabs.
  */

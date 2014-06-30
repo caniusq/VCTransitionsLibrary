@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 Colin Eberhardt. All rights reserved.
 //
 
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 /**
  NatGeo-inspired transition adopted to iOS7 API.
  @see https://github.com/michaelhenry/MHNatGeoViewControllerTransition
  */
-@interface CENatGeoAnimationController : CEReversibleAnimationController
+@interface CENatGeoAnimationController : CEBaseAnimationController
 
 @end

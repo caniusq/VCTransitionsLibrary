@@ -7,18 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CEReversibleAnimationController.h"
-
-typedef NS_ENUM(NSInteger, CEDirection) {
-    CEDirectionHorizontal,
-    CEDirectionVertical
-};
+#import "CEBaseAnimationController.h"
 
 /**
- Animates between the two view controllers by performing a 3D flip, to reveal the destination view on the back.The turn animation has a `flipDirection` property that specifies the turn orientation.
+ Animates between the two view controllers by performing a 3D flip, to reveal the destination view on the back.The turn animation has a `direction` property that specifies the turn orientation.
  */
-@interface CETurnAnimationController : CEReversibleAnimationController
-
-@property (nonatomic, assign) CEDirection flipDirection;
+@interface CETurnAnimationController : CEBaseAnimationController
 
 @end

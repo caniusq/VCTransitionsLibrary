@@ -10,7 +10,7 @@
 #import "NavigationController.h"
 #import "CEBaseInteractionController.h"
 #import "AppDelegate.h"
-#import "CEReversibleAnimationController.h"
+#import "CEBaseAnimationController.h"
 
 @interface SettingsViewController () <UIViewControllerTransitioningDelegate>
 
@@ -23,7 +23,7 @@
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
-        _animationControllers = @[@"None", @"Portal", @"Cards", @"Fold", @"Explode", @"Flip", @"Turn", @"Crossfade", @"NatGeo", @"Cube"];
+        _animationControllers = @[@"None", @"FadeBack", @"Portal", @"Cards", @"Fold", @"Explode", @"Flip", @"Turn", @"Crossfade", @"NatGeo", @"Cube"];
         _interactionControllers = @[@"None", @"HorizontalSwipe", @"VerticalSwipe", @"Pinch"];
     }
     return self;
